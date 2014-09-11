@@ -1,0 +1,42 @@
+/* ===========================================================================
+==== GLOBAL ELEMENTS
+============================================================================== */
+body {
+  background: #eaeaea url(../images/form-bg.jpg) top left;
+  font: 100%/1.62 sans-serif;
+  color: #222;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a {
+  color: #35839f;
+  text-decoration: none;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+/* ===========================================================================
+==== HOMEPAGE
+============================================================================== */
+.placeholder {
+  width: 210px;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+}
