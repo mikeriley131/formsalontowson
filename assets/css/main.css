@@ -1,10 +1,17 @@
 /* ===========================================================================
 ==== GLOBAL ELEMENTS
 ============================================================================== */
+* {
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
 body {
   background: #eaeaea url(../images/form-bg.jpg) top left;
   font: 100%/1.62 sans-serif;
-  color: #222;
+  color: #7f8181;
   margin: 0;
 }
 
@@ -17,8 +24,12 @@ p {
 }
 
 a {
-  color: #35839f;
+  color: #555454;
   text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #0980a1;
 }
 
 ul, li {
@@ -32,11 +43,193 @@ img {
 }
 
 /* ===========================================================================
+==== HEADER
+============================================================================== */
+header {
+  width: 100%;
+}
+
+.logo {
+  margin: 2em 0 1em;
+}
+.logo img {
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  padding: 1em 0;
+  border-top: 1px solid #bababa;
+  border-bottom: 1px solid #bababa;
+}
+nav ul {
+  display: inline-block;
+}
+nav li {
+  float: left;
+  margin-right: 4.5em;
+}
+nav li:last-child {
+  margin-right: 0;
+}
+nav a {
+  font: 12px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  padding-top: 1.4em;
+  transition-property: none;
+}
+nav a:hover, nav a:focus {
+  background: url(../images/active-arrow.png) top center no-repeat;
+}
+
+.active {
+  background: url(../images/active-arrow.png) top center no-repeat;
+  color: #0980a1;
+}
+
+/* ===========================================================================
 ==== HOMEPAGE
 ============================================================================== */
-.placeholder {
-  width: 210px;
-  margin: 0 auto;
-  margin-top: 60px;
-  text-align: center;
+.hero img {
+  width: 100%;
+}
+
+/* ===========================================================================
+==== FOOTER
+============================================================================== */
+footer {
+  width: 100%;
+  font: 12px "Open Sans", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .0625em;
+  margin: 1.5em 0;
+}
+footer a {
+  background-image: url(../images/social-icons.svg);
+  background-size: 355%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  transition-property: none;
+}
+footer a.fb {
+  background-position: 0 0;
+}
+footer a.fb:hover, footer a.fb:focus {
+  background-position: 0 20px;
+}
+footer a.inst {
+  background-position: 47px 0;
+}
+footer a.inst:hover, footer a.inst:focus {
+  background-position: 47px 20px;
+}
+footer a.twit {
+  background-position: 20px 0;
+}
+footer a.twit:hover, footer a.twit:focus {
+  background-position: 20px 20px;
+}
+
+.social {
+  padding-left: 3em;
+}
+.social li {
+  float: left;
+  margin-right: 1em;
+}
+.social li:last-child {
+  margin: 0;
+}
+
+/* ===========================================================================
+==== MEDIA QUERIES
+=========================================================================== */
+/* LARGE SCREENS (DESKTOP/LAPTOP)
+----------------------------------------------------------------------------*/
+@media screen and (max-width: 1219px) {
+  nav li {
+    float: left;
+    margin-right: 2.5em;
+  }
+
+  .social {
+    padding-left: 1em;
+  }
+}
+/* MEDIUM SCREENS (TABLETS)
+----------------------------------------------------------------------------*/
+@media screen and (min-width: 500px) and (max-width: 739px) {
+  nav li {
+    margin-right: 1em;
+  }
+  nav li a {
+    font-size: 10px;
+  }
+  nav li a:hover, nav li a:focus {
+    background: none;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  .social {
+    padding: 0;
+  }
+  .social li {
+    margin-right: .5em;
+  }
+
+  .contact-wrap {
+    float: right;
+    width: 368px;
+  }
+}
+/* SMALL SCREENS (PHONES)
+----------------------------------------------------------------------------*/
+@media screen and (max-width: 499px) {
+  .logo {
+    margin-top: .5em;
+  }
+
+  nav {
+    border: none;
+    padding: .5em 0 0;
+  }
+  nav li {
+    float: none;
+    margin: 1em 0 0;
+  }
+  nav li:first-child {
+    margin-top: 0;
+  }
+  nav a {
+    font-size: 24px;
+    letter-spacing: .0625em;
+  }
+  nav a:hover, nav a:focus {
+    background: none;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .gridlock .row footer .social {
+    float: none;
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+
+  .gridlock .row footer .phone {
+    float: none;
+  }
 }

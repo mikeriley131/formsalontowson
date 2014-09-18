@@ -1,0 +1,55 @@
+/* ===========================================================================
+==== FOOTER
+============================================================================== */
+footer {
+	width: 100%;
+	font: $nav;
+	text-transform: uppercase;
+	letter-spacing: .0625em;
+	margin: 1.5em 0;
+
+	a {
+		background-image: url(../images/social-icons.svg);
+		background-size: 355%;
+		display: block;
+		width: 20px;
+		height: 20px;
+		transition-property: none;
+	}
+
+	a.fb {
+		background-position: 0 0;
+
+		&:hover, &:focus {
+			background-position: 0 20px;
+		}
+	}
+
+	a.inst {
+		background-position: 47px 0;
+
+		&:hover, &:focus {
+			background-position: 47px 20px;
+		}
+	}
+
+	a.twit {
+		background-position: 20px 0;
+
+		&:hover, &:focus {
+			background-position: 20px 20px;
+		}
+	}
+}
+.social {
+	padding-left: 3em;
+
+	li {
+		float: left;
+		margin-right: 1em;
+
+		&:last-child {
+			margin: 0;
+		}
+	}
+}

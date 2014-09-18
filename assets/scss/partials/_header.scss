@@ -1,0 +1,49 @@
+/* ===========================================================================
+==== HEADER
+============================================================================== */
+header {
+	width: 100%;
+}
+.logo {
+	margin: 2em 0 1em;
+
+	img {
+		margin: 0 auto;
+	}
+}
+nav {
+	width: 100%;
+	text-align: center;
+	padding: 1em 0;
+	border-top: 1px solid #bababa;
+	border-bottom: 1px solid #bababa;
+
+	ul {
+		display: inline-block;
+	}
+
+	li {
+		float: left;
+		margin-right: 4.5em;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	a {
+		font: $nav;
+		text-transform: uppercase;
+		letter-spacing: .25em;
+		padding-top: 1.4em;
+		transition-property: none;
+
+		&:hover, &:focus {
+			background: url(../images/active-arrow.png) top center no-repeat;
+		}
+	}
+}
+.active {
+	background: url(../images/active-arrow.png) top center no-repeat;
+	color: $link-active;
+}

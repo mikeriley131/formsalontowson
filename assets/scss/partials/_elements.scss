@@ -1,10 +1,16 @@
 /* ===========================================================================
 ==== GLOBAL ELEMENTS
 ============================================================================== */
+* {
+	-webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+    	 -o-transition: all .5s ease;
+    		transition: all .5s ease;
+}
 body {
 	background: #eaeaea url(../images/form-bg.jpg) top left;
 	font: $body;
-	color: #222;
+	color: $body-color;
 	margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -16,6 +22,9 @@ p {
 a {
 	color: $link;
 	text-decoration: none;
+}
+a:hover, a:focus {
+	color: $link-active;
 }
 ul, li {
 	margin: 0;

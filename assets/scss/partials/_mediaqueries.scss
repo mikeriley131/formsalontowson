@@ -1,0 +1,91 @@
+/* ===========================================================================
+==== MEDIA QUERIES
+=========================================================================== */
+
+/* LARGE SCREENS (DESKTOP/LAPTOP)
+----------------------------------------------------------------------------*/
+@media screen and (max-width: 1219px) {
+	nav li {
+		float: left;
+		margin-right: 2.5em;
+	}
+	.social {
+		padding-left: 1em;
+	}
+}
+
+/* MEDIUM SCREENS (TABLETS)
+----------------------------------------------------------------------------*/
+@media screen and (min-width: 500px) and (max-width: 739px) {
+	nav li {
+		margin-right: 1em;
+
+		a {
+			font-size: 10px;
+
+			&:hover, &:focus {
+				background: none;
+			}
+		}
+	}
+	footer p {
+		font-size: 10px;
+	}
+	.social {
+		padding: 0;
+
+		li {
+			margin-right: .5em;
+		}
+	}
+	.contact-wrap {
+		float: right;
+		width: 368px;
+	}
+}
+
+/* SMALL SCREENS (PHONES)
+----------------------------------------------------------------------------*/
+@media screen and (max-width: 499px) {
+	.logo {
+		margin-top: .5em;
+	}
+	nav {
+		border: none;
+		padding: .5em 0 0;
+
+		li {
+			float: none;
+			margin: 1em 0 0;
+
+			&:first-child {
+				margin-top: 0;
+			}
+
+		}
+
+		a {
+			font-size: 24px;
+			letter-spacing: .0625em;
+
+			&:hover, &:focus {
+				background: none;
+			}
+		}
+	}
+	.hero {
+		display: none;
+	}
+	footer {
+		text-align: center;
+		font-size: 10px;
+	}
+	.gridlock .row footer .social {
+		float: none;
+		display: inline-block;
+		margin-bottom: 1em;
+	}
+	.gridlock .row footer .phone {
+		float: none;
+	}
+}
