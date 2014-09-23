@@ -1,0 +1,66 @@
+/* ===========================================================================
+==== INTERIOR PAGES
+============================================================================== */
+.main {
+	margin-top: 3em;
+	position: relative;
+	z-index: 0;
+
+	img, iframe {
+		float: right;
+		margin-left: 2em;
+		margin-bottom: 2em;
+	}
+}
+
+/* STYLISTS
+------------------------------------------------------------------------------ */
+section.stylists {
+	margin-top: 3em;
+
+	img {
+		float: left;
+		margin-right: 2em;
+		margin-bottom: 10em;
+	}
+
+	h1 {
+			font-size: 30px;
+			text-transform: lowercase;
+		}
+}
+
+/* SERVICES
+------------------------------------------------------------------------------ */
+table {
+	font-size: inherit;
+
+	td {
+		padding: 3px 6px;
+
+		&:nth-child(odd) {
+			width: 66%;
+			padding-left: 0;
+		}
+		&:nth-child(even) {
+			width: 32%;
+		}
+
+		&.note {
+			font-style: italic;
+			font-size: 11px;
+		}
+
+		h2 {
+			font-size: 1.25em;
+			margin: 10px 0 0;
+		}
+
+		h4 {
+			margin: 0;
+		}
+	}
+}
+.sponsors {
+	margin-top: 2em;
+}

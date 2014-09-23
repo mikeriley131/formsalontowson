@@ -10,13 +10,21 @@
 
 body {
   background: #eaeaea url(../images/form-bg.jpg) top left;
-  font: 100%/1.62 sans-serif;
-  color: #7f8181;
+  font: 13px/2 "Domine", serif;
+  color: black;
   margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 300;
+  color: #007f9f;
+  line-height: 1.25;
+  margin-bottom: .5em;
 }
 
 p {
@@ -47,6 +55,8 @@ img {
 ============================================================================== */
 header {
   width: 100%;
+  position: relative;
+  z-index: 20;
 }
 
 .logo {
@@ -59,9 +69,10 @@ header {
 nav {
   width: 100%;
   text-align: center;
-  padding: 1em 0;
+  padding: 1em 0 0;
   border-top: 1px solid #bababa;
   border-bottom: 1px solid #bababa;
+  position: relative;
 }
 nav ul {
   display: inline-block;
@@ -73,11 +84,35 @@ nav li {
 nav li:last-child {
   margin-right: 0;
 }
+nav li.dropdown ul.stylists {
+  display: none;
+  background: #31373B;
+  width: 200px;
+  overflow: hidden;
+  padding: 15px 10px;
+  margin-top: 14px;
+  position: absolute;
+  left: 202px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+nav li.dropdown ul.stylists li {
+  margin: 5px 0;
+}
+nav li.dropdown ul.stylists li a {
+  color: #858386;
+}
+nav li.dropdown ul.stylists li a:hover {
+  background: none;
+  color: #F3F3F3;
+}
+nav li.dropdown:hover ul.stylists, nav li.dropdown:focus ul.stylists {
+  display: block;
+}
 nav a {
   font: 12px "Open Sans", sans-serif;
   text-transform: uppercase;
   letter-spacing: .25em;
-  padding-top: 1.4em;
+  padding: 1.5em 0;
   transition-property: none;
 }
 nav a:hover, nav a:focus {
@@ -92,8 +127,72 @@ nav a:hover, nav a:focus {
 /* ===========================================================================
 ==== HOMEPAGE
 ============================================================================== */
-.hero img {
+.main.home {
+  margin-top: 0;
+}
+
+img.hero {
   width: 100%;
+}
+
+/* ===========================================================================
+==== INTERIOR PAGES
+============================================================================== */
+.main {
+  margin-top: 3em;
+  position: relative;
+  z-index: 0;
+}
+.main img, .main iframe {
+  float: right;
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+
+/* STYLISTS
+------------------------------------------------------------------------------ */
+section.stylists {
+  margin-top: 3em;
+}
+section.stylists img {
+  float: left;
+  margin-right: 2em;
+  margin-bottom: 10em;
+}
+section.stylists h1 {
+  font-size: 30px;
+  text-transform: lowercase;
+}
+
+/* SERVICES
+------------------------------------------------------------------------------ */
+table {
+  font-size: inherit;
+}
+table td {
+  padding: 3px 6px;
+}
+table td:nth-child(odd) {
+  width: 66%;
+  padding-left: 0;
+}
+table td:nth-child(even) {
+  width: 32%;
+}
+table td.note {
+  font-style: italic;
+  font-size: 11px;
+}
+table td h2 {
+  font-size: 1.25em;
+  margin: 10px 0 0;
+}
+table td h4 {
+  margin: 0;
+}
+
+.sponsors {
+  margin-top: 2em;
 }
 
 /* ===========================================================================
@@ -102,6 +201,7 @@ nav a:hover, nav a:focus {
 footer {
   width: 100%;
   font: 12px "Open Sans", sans-serif;
+  color: #7f8181;
   text-transform: uppercase;
   letter-spacing: .0625em;
   margin: 1.5em 0;
