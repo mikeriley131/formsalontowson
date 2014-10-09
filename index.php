@@ -3,7 +3,7 @@
 	session_start();
 
 	// Get requested URL
-	$www_root = "http://www.pyrographicdesign.com/betasites/formsalontowson/";
+	$www_root = "http://www.formsalontowson.com/";
 
 	$current_url = $_GET["request_url"];
 	$path = cleanURL($current_url);
@@ -28,6 +28,7 @@
 
 	include "templates/_header.php";
 	echo $page_content;
+	include "templates/_footer.php";
 
 
 	// Functions

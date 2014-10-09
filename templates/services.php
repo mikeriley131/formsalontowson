@@ -1,9 +1,11 @@
+<?php $thisPage="services"; ?>
+
 		<div class="row">
 			<section class="main max-9 desktop-9 tablet-6 centered contained">
 				<div class="copy" itemscope itemtype="http://schema.org/LocalBusiness">
 					<h1>Services</h1>
 
-					<table class="max-6 desktop-6 tablet-4 mobile-3 min-3 contained">
+					<table class="max-8 desktop-8 tablet-4 contained">
 						<tbody>
 							<tr>
 								<td>
@@ -137,7 +139,3 @@
 				</div>
 			</section>
 		</div>
-
-		<!-- <script src="<assets/js/main.min.js"></script> -->
-	</body>
-</html>

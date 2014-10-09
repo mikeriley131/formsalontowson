@@ -2,10 +2,10 @@
 ==== GLOBAL ELEMENTS
 ============================================================================== */
 * {
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: color .5s ease;
+  -moz-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease;
 }
 
 body {
@@ -69,7 +69,7 @@ header {
 nav {
   width: 100%;
   text-align: center;
-  padding: 1em 0 0;
+  line-height: 0;
   border-top: 1px solid #bababa;
   border-bottom: 1px solid #bababa;
   position: relative;
@@ -79,7 +79,9 @@ nav ul {
 }
 nav li {
   float: left;
+  padding: 1em 0;
   margin-right: 4.5em;
+  position: relative;
 }
 nav li:last-child {
   margin-right: 0;
@@ -89,17 +91,20 @@ nav li.dropdown ul.stylists {
   background: #31373B;
   width: 200px;
   overflow: hidden;
-  padding: 15px 10px;
-  margin-top: 14px;
+  padding: 10px 10px 5px;
+  margin-top: 19px;
   position: absolute;
-  left: 202px;
+  left: 0;
+  top: 25px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
 }
 nav li.dropdown ul.stylists li {
-  margin: 5px 0;
+  margin: 0;
+  padding: .5em 0;
 }
 nav li.dropdown ul.stylists li a {
   color: #858386;
+  padding: 0;
 }
 nav li.dropdown ul.stylists li a:hover {
   background: none;
@@ -112,15 +117,14 @@ nav a {
   font: 12px "Open Sans", sans-serif;
   text-transform: uppercase;
   letter-spacing: .25em;
-  padding: 1.5em 0;
   transition-property: none;
+  padding-top: 1.125em;
 }
 nav a:hover, nav a:focus {
   background: url(../images/active-arrow.png) top center no-repeat;
 }
 
-.active {
-  background: url(../images/active-arrow.png) top center no-repeat;
+.active-page {
   color: #0980a1;
 }
 
@@ -135,6 +139,11 @@ img.hero {
   width: 100%;
 }
 
+footer a[href^="tel:"] {
+  color: #7f8181;
+  display: initial;
+}
+
 /* ===========================================================================
 ==== INTERIOR PAGES
 ============================================================================== */
@@ -146,22 +155,36 @@ img.hero {
 .main img, .main iframe {
   float: right;
   margin-left: 2em;
-  margin-bottom: 2em;
 }
 
 /* STYLISTS
 ------------------------------------------------------------------------------ */
+.stylists-block {
+  float: left;
+  background: #ddd;
+  border: 1px solid #999;
+  margin-top: 1em;
+}
+.stylists-block .bio-short h2 {
+  margin-bottom: 0;
+}
+.stylists-block .bio-short p {
+  line-height: 1.62;
+  margin-top: -.25em;
+  margin-bottom: 0;
+}
+
 section.stylists {
   margin-top: 3em;
 }
 section.stylists img {
   float: left;
   margin-right: 2em;
-  margin-bottom: 10em;
 }
 section.stylists h1 {
   font-size: 30px;
   text-transform: lowercase;
+  margin-bottom: 0;
 }
 
 /* SERVICES
@@ -209,6 +232,7 @@ footer {
 footer a {
   background-image: url(../images/social-icons.svg);
   background-size: 355%;
+  background-repeat: none;
   display: block;
   width: 20px;
   height: 20px;
@@ -244,6 +268,10 @@ footer a.twit:hover, footer a.twit:focus {
   margin: 0;
 }
 
+.contact-wrap .phone a {
+  background-image: none;
+}
+
 /* ===========================================================================
 ==== MEDIA QUERIES
 =========================================================================== */
@@ -259,6 +287,13 @@ footer a.twit:hover, footer a.twit:focus {
     padding-left: 1em;
   }
 }
+/* IPAD SPECIFICALLY
+------------------------------------------------------------------------------ */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  nav li.dropdown:hover ul.stylists {
+    display: none;
+  }
+}
 /* MEDIUM SCREENS (TABLETS)
 ----------------------------------------------------------------------------*/
 @media screen and (min-width: 500px) and (max-width: 739px) {
@@ -267,9 +302,10 @@ footer a.twit:hover, footer a.twit:focus {
   }
   nav li a {
     font-size: 10px;
+    padding-top: 1.375em;
   }
-  nav li a:hover, nav li a:focus {
-    background: none;
+  nav li.dropdown ul.stylists {
+    top: 22px;
   }
 
   footer p {
@@ -291,6 +327,14 @@ footer a.twit:hover, footer a.twit:focus {
 /* SMALL SCREENS (PHONES)
 ----------------------------------------------------------------------------*/
 @media screen and (max-width: 499px) {
+  .gridlock .row {
+    width: 96%;
+  }
+
+  header {
+    z-index: 0;
+  }
+
   .logo {
     margin-top: .5em;
   }
@@ -306,16 +350,55 @@ footer a.twit:hover, footer a.twit:focus {
   nav li:first-child {
     margin-top: 0;
   }
+  nav li.dropdown ul.stylists {
+    position: relative;
+    width: 100%;
+    display: block;
+    top: -15px;
+  }
+  nav li.dropdown ul.stylists li a {
+    font-size: 18px;
+  }
   nav a {
     font-size: 24px;
     letter-spacing: .0625em;
+    padding: 0;
   }
   nav a:hover, nav a:focus {
     background: none;
   }
 
+  .home-page .nav-toggle {
+    display: none;
+  }
+
+  .js .home-page .nav-collapse {
+    clip: inherit;
+    max-height: none;
+    position: relative !important;
+  }
+
   .hero {
     display: none;
+  }
+
+  .main iframe, .main img {
+    width: 100%;
+    float: none;
+    margin: 0 0 1em 0;
+  }
+
+  .stylists-block {
+    width: 100%;
+  }
+  .stylists-block .bio-short p {
+    margin-bottom: 1em;
+  }
+
+  section.stylists img {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 2em;
   }
 
   footer {
@@ -327,6 +410,10 @@ footer a.twit:hover, footer a.twit:focus {
     float: none;
     display: inline-block;
     margin-bottom: 1em;
+  }
+
+  .gridlock .row footer .contact-wrap .address, .gridlock .row footer .phone {
+    width: 100%;
   }
 
   .gridlock .row footer .phone {

@@ -9,24 +9,42 @@
 	img, iframe {
 		float: right;
 		margin-left: 2em;
-		margin-bottom: 2em;
 	}
 }
 
 /* STYLISTS
 ------------------------------------------------------------------------------ */
+.stylists-block {
+	float: left;
+	background: #ddd;
+	border: 1px solid #999;
+	margin-top: 1em;
+
+	.bio-short {
+
+		h2 {
+			margin-bottom: 0;
+		}
+
+		p {
+			line-height: 1.62;
+			margin-top: -.25em;
+			margin-bottom: 0;
+		}
+	}
+}
 section.stylists {
 	margin-top: 3em;
 
 	img {
 		float: left;
 		margin-right: 2em;
-		margin-bottom: 10em;
 	}
 
 	h1 {
-			font-size: 30px;
-			text-transform: lowercase;
+		font-size: 30px;
+		text-transform: lowercase;
+		margin-bottom: 0;
 		}
 }
 

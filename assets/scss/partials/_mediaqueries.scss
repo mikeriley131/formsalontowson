@@ -14,6 +14,14 @@
 	}
 }
 
+/* IPAD SPECIFICALLY
+------------------------------------------------------------------------------ */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	nav li.dropdown:hover ul.stylists {
+		display: none
+	}
+}
+
 /* MEDIUM SCREENS (TABLETS)
 ----------------------------------------------------------------------------*/
 @media screen and (min-width: 500px) and (max-width: 739px) {
@@ -22,10 +30,11 @@
 
 		a {
 			font-size: 10px;
+			padding-top: 1.375em;
+		}
 
-			&:hover, &:focus {
-				background: none;
-			}
+		&.dropdown ul.stylists {
+			top: 22px;
 		}
 	}
 	footer p {
@@ -47,6 +56,12 @@
 /* SMALL SCREENS (PHONES)
 ----------------------------------------------------------------------------*/
 @media screen and (max-width: 499px) {
+	.gridlock .row {
+		width: 96%;
+	}
+	header {
+		z-index: 0;
+	}
 	.logo {
 		margin-top: .5em;
 	}
@@ -62,19 +77,56 @@
 				margin-top: 0;
 			}
 
+			&.dropdown ul.stylists {
+				position: relative;
+				width: 100%;
+				display: block;
+				top: -15px;
+
+				li a {
+					font-size: 18px;
+				}
+			}
+
 		}
 
 		a {
 			font-size: 24px;
 			letter-spacing: .0625em;
+			padding: 0;
 
 			&:hover, &:focus {
 				background: none;
 			}
 		}
 	}
+	.home-page .nav-toggle {
+		display: none;
+	}
+	.js .home-page .nav-collapse {
+		clip: inherit;
+		max-height: none;
+		position: relative !important;
+	}
 	.hero {
 		display: none;
+	}
+	.main iframe, .main img {
+		width: 100%;
+		float: none;
+		margin: 0 0 1em 0;
+	}
+	.stylists-block {
+		width: 100%;
+
+		.bio-short p {
+			margin-bottom: 1em;
+		}
+	}
+	section.stylists img {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 2em;
 	}
 	footer {
 		text-align: center;
@@ -84,6 +136,9 @@
 		float: none;
 		display: inline-block;
 		margin-bottom: 1em;
+	}
+	.gridlock .row footer .contact-wrap .address, .gridlock .row footer .phone {
+		width: 100%;
 	}
 	.gridlock .row footer .phone {
 		float: none;

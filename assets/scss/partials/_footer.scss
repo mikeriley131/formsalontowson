@@ -12,6 +12,7 @@ footer {
 	a {
 		background-image: url(../images/social-icons.svg);
 		background-size: 355%;
+		background-repeat: none;
 		display: block;
 		width: 20px;
 		height: 20px;
@@ -53,4 +54,7 @@ footer {
 			margin: 0;
 		}
 	}
+}
+.contact-wrap .phone a {
+	background-image: none;
 }

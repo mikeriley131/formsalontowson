@@ -1,3 +1,5 @@
+<?php $thisPage="home"; ?>
+
 		<div class="row">
 			<section class="main home max-9 desktop-9 tablet-6 centered contained">
 				<img class="hero" src="assets/images/form-home-hero.jpg" alt="Artistry, Chemistry, Conversation">
@@ -8,9 +10,9 @@
 				<div class="row">
 					<div class="social max-2 desktop-3">
 						<ul>
-							<li><a class="fb" href=""></a></li>
-							<li><a class="inst" href=""></a></li>
-							<li><a class="twit" href=""></a></li>
+							<li><a class="fb" href="https://www.facebook.com/pages/FORM-SALON/557740801004916" target="_blank" title="Form Salon on Facebook"></a></li>
+							<li><a class="inst" href="http://instagram.com/formsalon" target="_blank" title="Form Salon on Instagram"></a></li>
+							<li><a class="twit" href="https://twitter.com/formsalontowson" target="_blank" title="Form Salon on Twitter"></a></li>
 						</ul>
 					</div>
 					<div class="contact-wrap">
@@ -18,13 +20,9 @@
 							<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">742 Dulaney Valley Road, Towson, MD 21204</p>
 						</div>
 						<div class="phone desktop-push-1 tablet-1	" itemscope itemtype="http://schema.org/Place">
-							<p itemprop="telephone">410.555.5555</p>
+							<a href="tel:4108253676"itemprop="telephone">410.825.FORM</a>
 						</div>
 					</div>
 				</div>
 			</footer>
 		</div>
-
-		<!-- <script src="<assets/js/main.min.js"></script> -->
-	</body>
-</html>
