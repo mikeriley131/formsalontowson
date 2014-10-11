@@ -2,9 +2,14 @@
 <html>
 	<head
 		<meta charset="UTF-8">
-		<meta name="description" content="">
-		<meta name="author" content="Mike Riley">
+		<meta name="description" content="Hailing from the acclaimed Studio 1612, the Form Salon team is excited to bring their energy and talent to the Towson area. With over 100 years of combined experience, our team strives to create wearable looks for every client.">
+		<!-- <meta name="author" content="Mike Riley"> -->
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta property="og:title" content="Form Salon - Towson, MD" />
+		<meta property="og:description" content="Hailing from the acclaimed Studio 1612, the Form Salon team is excited to bring their energy and talent to the Towson area. With over 100 years of combined experience, our team strives to create wearable looks for every client." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://www.formsalontowson.com" />
+		<meta property="og:image" content="http://formsalontowson.com/assets/images/form-salon-logo.svg" />
 
 		<title>Form Salon - Towson, MD</title>
 
