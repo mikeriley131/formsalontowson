@@ -51,6 +51,15 @@
 						</div>
 					</div>
 					<div class="stylists-block">
+						<a href="<?php echo $www_root ?>stylists-erika-lloyd">
+							<img class="max-2 desktop-2 tablet-1 mobile-3 min-3 contained" src="assets/images/stylist-erika-lloyd.jpg" alt="Stylist - Erika Lloyd">
+						</a>
+						<div class="bio-short max-9 desktop-9 tablet-4 mobile-3">
+							<h2>erika lloyd</h2>
+							<p>Erika's inspiration and passion for the industry has been with her throughout her life—her mother a former hair stylist... <a href="<?php echo $www_root ?>stylists-erika-lloyd">Learn More</a></p>
+						</div>
+					</div>
+					<div class="stylists-block">
 						<a href="<?php echo $www_root ?>stylists-rhonda-murtaugh">
 							<img class="max-2 desktop-2 tablet-1 mobile-3 min-3 contained" src="assets/images/stylist-rhonda-murtaugh.jpg" alt="Stylist - Rhonda Murtaugh">
 						</a>
