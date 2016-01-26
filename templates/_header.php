@@ -42,6 +42,7 @@
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-caroline-delauder">Caroline DeLauder</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-becky-derti">Becky Derti</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-courtney-duncan">Courtney Duncan</a></li>
+								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-erika-lloyd">Erika Lloyd</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-lauren-leone">Lauren Leone</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-rhonda-murtaugh">Rhonda Murtaugh</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-judy-weidel">Judy Weidel</a></li>
