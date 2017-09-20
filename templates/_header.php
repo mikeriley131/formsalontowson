@@ -11,6 +11,13 @@
 		<meta property="og:url" content="http://www.formsalontowson.com" />
 		<meta property="og:image" content="http://formsalontowson.com/assets/images/form-salon-logo.svg" />
 
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+
 		<title>Form Salon - Towson, MD</title>
 
 		<link href='http://fonts.googleapis.com/css?family=Domine:400,700|Open+Sans:800' rel='stylesheet' type='text/css'>
@@ -42,7 +49,7 @@
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-caroline-delauder">Caroline DeLauder</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-becky-derti">Becky Derti</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-courtney-duncan">Courtney Duncan</a></li>
-								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-erika-lloyd">Erika Lloyd</a></li>
+								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-lindsey-campbell">Lindsey Campbell</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-lauren-leone">Lauren Leone</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-rhonda-murtaugh">Rhonda Murtaugh</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-judy-weidel">Judy Weidel</a></li>

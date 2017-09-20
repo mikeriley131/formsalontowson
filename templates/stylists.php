@@ -51,12 +51,12 @@
 						</div>
 					</div>
 					<div class="stylists-block">
-						<a href="<?php echo $www_root ?>stylists-erika-lloyd">
-							<img class="max-2 desktop-2 tablet-1 mobile-3 min-3 contained" src="assets/images/stylist-erika-lloyd.jpg" alt="Stylist - Erika Lloyd">
+						<a href="<?php echo $www_root ?>stylists-lindsey-campbell">
+							<img class="max-2 desktop-2 tablet-1 mobile-3 min-3 contained" src="assets/images/stylist-lindsey-campbell.jpg" alt="Stylist - Lindsey Campbell">
 						</a>
 						<div class="bio-short max-9 desktop-9 tablet-4 mobile-3">
-							<h2>erika lloyd</h2>
-							<p>Erika's inspiration and passion for the industry has been with her throughout her life—her mother a former hair stylist... <a href="<?php echo $www_root ?>stylists-erika-lloyd">Learn More</a></p>
+							<h2>lindsey campbell</h2>
+							<p>Lindsey has been working her magic at Form since December of 2016. She has achieved an incredible following for her balayage and blonding... <a href="<?php echo $www_root ?>stylists-lindsey-campbell">Learn More</a></p>
 						</div>
 					</div>
 					<div class="stylists-block">

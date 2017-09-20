@@ -2,7 +2,7 @@
 
 		<div class="row">
 			<section class="stylists max-9 desktop-9 tablet-6 centered contained">
-				<img class="max-5 desktop-5 tablet-3" src="assets/images/stylist-rhonda-murtaugh.jpg" alt="Stylist - honda Murtaugh">
+				<img class="max-5 desktop-5 tablet-3" src="assets/images/stylist-rhonda-murtaugh.jpg" alt="Stylist - Rhonda Murtaugh">
 				<div class="max-7 desktop-7 tablet-3">
 					<h1>Rhonda Murtaugh</h1>
 					<p><a href="mailto:rhonda@formsalontowson.com">rhonda@formsalontowson.com</a></p>
