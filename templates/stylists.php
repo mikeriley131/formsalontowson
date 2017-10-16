@@ -29,7 +29,7 @@
 						</a>
 						<div class="bio-short max-9 desktop-9 tablet-4 mobile-3">
 							<h2>becky derti</h2>
-							<p>Becky has spent the last 8 years as a licensed cosmetologist in the state of Maryland. Up until opening Form Salon in 2014... <a href="<?php echo $www_root ?>stylists-becky-derti">Learn More</a></p>
+							<p>Becky's effervescent personality and love of working with a diverse clientele has launched her into... <a href="<?php echo $www_root ?>stylists-becky-derti">Learn More</a></p>
 						</div>
 					</div>
 					<div class="stylists-block">
@@ -47,7 +47,7 @@
 						</a>
 						<div class="bio-short max-9 desktop-9 tablet-4 mobile-3">
 							<h2>lauren leone</h2>
-							<p>As a stylist of over 14 years, Lauren prides herself on the relationships she builds with each and every client... <a href="<?php echo $www_root ?>stylists-lauren-leone">Learn More</a></p>
+							<p>As a co-owner of Form Salon for 3 years and stylist of over 16years, Lauren prides herself on the relationship... <a href="<?php echo $www_root ?>stylists-lauren-leone">Learn More</a></p>
 						</div>
 					</div>
 					<div class="stylists-block">
@@ -74,7 +74,16 @@
 						</a>
 						<div class="bio-short max-9 desktop-9 tablet-4 mobile-3">
 							<h2>judy weidel</h2>
-							<p>With 36 years in the industry, Judy possesses a passion for hair. Judy specializes in dimensional color, short and long hair, bobs and... <a href="<?php echo $www_root ?>stylists-judy-weidel">Learn More</a></p>
+							<p>Judy is a master stylist possessing an entrepreneurial spirit. During her career she opened... <a href="<?php echo $www_root ?>stylists-judy-weidel">Learn More</a></p>
+						</div>
+					</div>
+					<div class="stylists-block">
+						<a href="<?php echo $www_root ?>stylists-leah-boring">
+							<img class="max-2 desktop-2 tablet-1 mobile-3 min-3 contained" src="assets/images/stylist-leah-boring.jpg" alt="Stylist - Leah Boring">
+						</a>
+						<div class="bio-short max-9 desktop-9 tablet-4 mobile-3">
+							<h2>leah boring</h2>
+							<p>Leah always had a love for people, hair and fashion. While beginning her 5th year in retail marketing, Leah realized that she needed to... <a href="<?php echo $www_root ?>stylists-leah-boring">Learn More</a></p>
 						</div>
 					</div>
 				</div>

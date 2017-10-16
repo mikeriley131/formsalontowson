@@ -6,8 +6,13 @@
 				<div class="max-7 desktop-7 tablet-3">
 					<h1>Judy Weidel</h1>
 					<p><a href="mailto:judy@formsalontowson.com">judy@formsalontowson.com</a></p>
-					<p>With 36 years in the industry, Judy possesses a passion for hair. Judy specializes in dimensional color, short and long hair, bobs and razor cutting. Judy will detail a cut tailored just for you, texturizing and personalizing is Judy's signature. If you are looking for a change, Judy is always up for the challenge.</p>
-					<p>Judy has always been involved with education and is devoted to keeping updated and versatile. Judy has trained with leading educators in the business including, Sassoon Academy, Framesi, Sebastian International, Tigi, Wella, Trevor Sorbie and Vivienne Mackinder. Judy was an artistic director for 11 years before opening Studio 1612, a salon she co-owned for 23 years. Some of Judy's achievements include "Best Hairdresser" from Baltimore City Paper, second place top stylist "North East Regional Competition", voted "Baltimore's Best Salon" by Baltimore Magazine for years running, and featured as one of "America's Fastest Growing Salon's" in Salon Today early on in her career. Judy is excited to bring her knowledge and expertise to Form Salon!</p>
+					<p>"I feel fortunate to love what I do! Every day I have the opportunity to make people look and feel beautiful!"</p>
+
+					<p>Judy is a master stylist possessing an entrepreneurial spirit. During her career she opened and co-owned Studio 1612 establishing herself early on as a leader and mentor in the industry. She attributes her success to her commitment to education. Judy specializes in haircuts that are trendy, edgy and classic. Through her education she has acquired the technique and the skill that enables her to detail a cut tailored just for you. Texturizing and personalizing is Judy's signature. As a colorist she is proficient at custom coloring, hand painting, balayage, Ombre', glazing, and highlighting.</p>
+
+					<p>Judy has trained with leading educators such as Bumble & Bumble, Aveda, Vidal Sassoon New York and L.A., Framesi, Sebastian International, TIGI, Wella, Trevor Sorbie, Vivienne Mackinder, and Oscar Bond. Some of her achievement are "BestHairdresser” from Baltimore's City Paper, second place "Top Stylist North East Regional Competition” and voted "Baltimore's Best Salon” by Baltimore Magazine.</p>
+
+					<p>Judy is always excited to bring her knowledge energy and expertise to Form Salon!</p>
 				</div>
 			</section>
 		</div>

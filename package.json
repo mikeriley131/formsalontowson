@@ -14,8 +14,8 @@
   },
   "css": {
     "assets/css/main.min.css": [
-      "bower_components/normalize-css/normalize.css",
-      "bower_components/Gridlock/fs.gridlock.css",
+      "assets/css/normalize.css",
+      "assets/css/fs.gridlock.css",
       "assets/css/responsive-nav.css",
       "assets/css/main.css"
     ]

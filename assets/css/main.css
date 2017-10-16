@@ -11,7 +11,7 @@
 body {
   background: #eaeaea url(../images/form-bg.jpg) top left;
   font: 13px/2 "Domine", serif;
-  color: black;
+  color: #000;
   margin: 0;
 }
 
@@ -186,11 +186,18 @@ section.stylists h1 {
   text-transform: lowercase;
   margin-bottom: 0;
 }
+section.stylists ul {
+  margin-bottom: 1rem;
+}
+section.stylists li {
+  list-style-type: disc;
+}
 
 /* SERVICES
 ------------------------------------------------------------------------------ */
 table {
   font-size: inherit;
+  margin-bottom: 2rem;
 }
 table td {
   padding: 3px 6px;
@@ -208,6 +215,10 @@ table td.note {
 }
 table td h2 {
   font-size: 1.25em;
+  margin: 10px 0 0;
+}
+table td h3 {
+  font-size: 1.125em;
   margin: 10px 0 0;
 }
 table td h4 {
@@ -420,3 +431,5 @@ footer a.twit:hover, footer a.twit:focus {
     float: none;
   }
 }
+
+/*# sourceMappingURL=main.css.map */

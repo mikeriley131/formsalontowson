@@ -46,12 +46,21 @@ section.stylists {
 		text-transform: lowercase;
 		margin-bottom: 0;
 		}
+
+	ul {
+		margin-bottom: 3rem;
+	}
+
+	li {
+		list-style-type: disc;
+	}
 }
 
 /* SERVICES
 ------------------------------------------------------------------------------ */
 table {
 	font-size: inherit;
+	margin-bottom: 2rem;
 
 	td {
 		padding: 3px 6px;
@@ -71,6 +80,11 @@ table {
 
 		h2 {
 			font-size: 1.25em;
+			margin: 10px 0 0;
+		}
+
+		h3 {
+			font-size: 1.125em;
 			margin: 10px 0 0;
 		}
 

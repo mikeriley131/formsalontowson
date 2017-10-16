@@ -21,7 +21,7 @@
 		<title>Form Salon - Towson, MD</title>
 
 		<link href='http://fonts.googleapis.com/css?family=Domine:400,700|Open+Sans:800' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="<?php echo $www_root ?>assets/css/main.min.css" />
+		<link rel="stylesheet" href="<?php echo $www_root ?>assets/css/main.min.css?bust=127" />
 
 		<!--[if lt IE 9]>
 		<link rel="stylesheet" href="<?php echo $www_root ?>assets/css/fs.gridlock-ie.css">
@@ -53,6 +53,7 @@
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-lauren-leone">Lauren Leone</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-rhonda-murtaugh">Rhonda Murtaugh</a></li>
 								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-judy-weidel">Judy Weidel</a></li>
+								<li><a <?php if ($thisPage=="stylists") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>stylists-leah-boring">Leah Boring</a></li>
 							</ul>
 						</li>
 						<li><a <?php if ($thisPage=="services") echo "class=\"active-page\""; ?> href="<?php echo $www_root ?>services">Services</a></li>
