@@ -109,7 +109,7 @@
 							</tr>
 							<tr>
 								<td>
-									<h3>Toning</h3>
+									<h3>Styling</h3>
 								</td>
 							</tr>
 							<tr>
@@ -139,10 +139,6 @@
 					We request at least 24 hour notice for all cancellations.<br>
 					If less than 24 hour notice is given, the guest will be charged 50% of the total service price.<br>
 					If guest cancels within the hour of the appointment time or does not show up for the scheduled appointment, 100% of the service price will be charged.</p>
-
-					<div class="sponsors max-12 desktop-12 tablet-6 mobile-3 min-3 contained">
-						<h4>We use Aveda and Wella color and Aveda and Bumble and Bumble hair products.</h4>
-					</div>
 
 				</div>
 			</section>
