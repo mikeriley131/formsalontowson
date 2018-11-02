@@ -78,12 +78,12 @@
 						</div>
 					</div>
 					<div class="stylists-block">
-						<a href="<?php echo $www_root ?>stylists-leah-boring">
-							<img class="max-2 desktop-2 tablet-1 mobile-3 min-3 contained" src="assets/images/stylist-leah-boring.jpg" alt="Stylist - Leah Boring">
+						<a href="<?php echo $www_root ?>stylists-harmony-zattau">
+							<img class="max-2 desktop-2 tablet-1 mobile-3 min-3 contained" src="assets/images/stylist-harmony-zattau.jpg" alt="Stylist - Harmony Zattou">
 						</a>
 						<div class="bio-short max-9 desktop-9 tablet-4 mobile-3">
-							<h2>leah boring</h2>
-							<p>Leah always had a love for people, hair and fashion. While beginning her 5th year in retail marketing, Leah realized that she needed to... <a href="<?php echo $www_root ?>stylists-leah-boring">Learn More</a></p>
+							<h2>harmony zattau</h2>
+							<p>Harmony is a multifaceted stylist who has worked  at Form for over three years. She is a go to for fiery reds, vibrant fashion colors as well as... <a href="<?php echo $www_root ?>stylists-harmony-zattau">Learn More</a></p>
 						</div>
 					</div>
 				</div>
