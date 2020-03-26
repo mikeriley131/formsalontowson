@@ -8,8 +8,8 @@
 		<meta property="og:title" content="Form Salon - Towson, MD" />
 		<meta property="og:description" content="Hailing from the acclaimed Studio 1612, the Form Salon team is excited to bring their energy and talent to the Towson area. With over 100 years of combined experience, our team strives to create wearable looks for every client." />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="http://www.formsalontowson.com" />
-		<meta property="og:image" content="http://formsalontowson.com/assets/images/form-salon-logo.svg" />
+		<meta property="og:url" content="<?php echo $www_root ?>" />
+		<meta property="og:image" content="<?php echo $www_root ?>assets/images/form-salon-logo.svg" />
 
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -20,8 +20,8 @@
 
 		<title>Form Salon - Towson, MD</title>
 
-		<link href='http://fonts.googleapis.com/css?family=Domine:400,700|Open+Sans:800' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="<?php echo $www_root ?>assets/css/main.min.css?bust=127" />
+		<link href='https://fonts.googleapis.com/css?family=Domine:400,700|Open+Sans:800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="<?php echo $www_root ?>assets/css/main.min.css" />
 
 		<!--[if lt IE 9]>
 		<link rel="stylesheet" href="<?php echo $www_root ?>assets/css/fs.gridlock-ie.css">

@@ -3,7 +3,7 @@
 	session_start();
 
 	// Get requested URL
-	$www_root = "http://www.formsalontowson.com/";
+	$www_root = "https://www.formsalontowson.com/";
 
 	$current_url = $_GET["request_url"];
 	$path = cleanURL($current_url);
