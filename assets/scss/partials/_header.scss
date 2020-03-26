@@ -7,7 +7,8 @@ header {
 	z-index: 20;
 }
 .logo {
-	margin: 2em 0 1em;
+	margin:0 0 1em;
+	padding-top: 2em;
 
 	img {
 		margin: 0 auto;
@@ -70,6 +71,7 @@ nav {
 
 	a {
 		font: $nav;
+		font-weight: 800;
 		text-transform: uppercase;
 		letter-spacing: .25em;
 		transition-property: none;

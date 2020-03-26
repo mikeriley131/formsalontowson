@@ -20,7 +20,7 @@
 
 		<title>Form Salon - Towson, MD</title>
 
-		<link href='https://fonts.googleapis.com/css?family=Domine:400,700|Open+Sans:800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Domine:400,700|Open+Sans:600,800' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="<?php echo $www_root ?>assets/css/main.min.css" />
 
 		<!--[if lt IE 9]>
@@ -35,6 +35,18 @@
 	</head>
 
 	<body class="gridlock <?php if ( $thisPage == 'home' ) { echo "home-page"; } ?>">
+		<!-- temporary COVID-19 overlay -->
+		<div class="overlay mobile">
+			<div class="overlay__content">
+				<p>Form is currently closed until further notice due to the current health crisis.</p>
+				<p>Consider purchasing a gift card or shopping our link for your hair product needs. Form receives 40% profit with this link.</p>
+				<p>We appreciate your commitment to small business during these uncertain times.</p>
+				<div class="overlay__links-row">
+					<a href="<?php echo $www_root ?>gift-certificates" class="overlay__link">Purchase gift card</a>
+					<a href="https://www.randco.com/?rfsn=3873714.adb53" class="overlay__link">Shop R+Co</a>
+				</div>
+			</div>
+		</div>
 		<div class="row">
 			<header class="max-9 desktop-9 tablet-6 centered contained">
 				<div class="logo">

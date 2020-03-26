@@ -60,7 +60,8 @@ header {
 }
 
 .logo {
-  margin: 2em 0 1em;
+  margin: 0 0 1em;
+  padding-top: 2em;
 }
 .logo img {
   margin: 0 auto;
@@ -115,6 +116,7 @@ nav li.dropdown:hover ul.stylists, nav li.dropdown:focus ul.stylists {
 }
 nav a {
   font: 12px "Open Sans", sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: .25em;
   transition-property: none;
@@ -148,6 +150,93 @@ footer a[href^="tel:"] {
   font-size: 1.5rem;
   margin-top: 1.5rem;
   text-align: center;
+  text-decoration: underline;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 1.5rem;
+  position: relative;
+  width: 100%;
+  z-index: 100;
+}
+
+.overlay.desktop {
+  display: none;
+  position: absolute;
+}
+
+@media (min-width: 600px) {
+  .overlay {
+    padding: 3rem 4.5rem;
+  }
+}
+@media (min-width: 800px) {
+  .overlay {
+    left: 3rem;
+    width: calc(100% - 6rem);
+  }
+
+  .overlay.mobile {
+    display: none;
+  }
+
+  .overlay.desktop {
+    display: block;
+  }
+}
+@media (min-width: 1220px) {
+  .overlay {
+    padding: 4.5rem;
+  }
+}
+.overlay__content {
+  color: #fff;
+  font: 12px "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  max-width: 34rem;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .overlay__content {
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1220px) {
+  .overlay__content {
+    font-size: 1.5rem;
+  }
+}
+.overlay__links-row {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .overlay__links-row {
+    align-items: stretch;
+    flex-direction: row;
+  }
+}
+.overlay__link {
+  align-items: center;
+  background-color: #fff;
+  color: #222;
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  margin: .75rem;
+  max-width: 10rem;
+  padding: .75rem 1.5rem;
+  text-transform: uppercase;
+}
+
+.overlay__link:focus,
+.overlay__link:hover {
   text-decoration: underline;
 }
 
