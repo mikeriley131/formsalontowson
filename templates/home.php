@@ -6,6 +6,22 @@
 			</section>
 		</div>
 		<div class="row">
+			<section class="max-9 desktop-9 tablet-6 centered contained">
+				<p class="homepage-link"><a href="https://www.randco.com/?rfsn=3873714.adb53">Shop R+Co</a></p>
+				<div  data-site-id="88b281c4-5be1-496c-bbd6-6f01b9128947" data-platform="Other" class="gift-up-target"></div>
+				<script type="text/javascript">
+				(function (g, i, f, t, u, p, s) {
+						g[u] = g[u] || function() { (g[u].q = g[u].q || []).push(arguments) };
+						p = i.createElement(f);
+						p.async = 1;
+						p.src = t;
+						s = i.getElementsByTagName(f)[0];
+						s.parentNode.insertBefore(p, s);
+				})(window, document, "script", "https://cdn.giftup.app/dist/gift-up.js", "giftup");
+				</script>
+			</section>
+		</div>
+		<div class="row">
 			<footer class="max-9 desktop-9 tablet-6 centered contained">
 				<div class="row">
 					<div class="social max-2 desktop-3">
