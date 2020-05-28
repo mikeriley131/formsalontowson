@@ -11,6 +11,7 @@
 						<div class="overlay__links-row">
 							<a href="<?php echo $www_root ?>gift-certificates" class="overlay__link">Purchase gift card</a>
 							<a href="https://www.randco.com/?rfsn=3873714.adb53" class="overlay__link">Shop R+Co</a>
+							<a href="https://olaplex.com/?aff=3978" class="overlay__link">Shop Olaplex</a>
 						</div>
 					</div>
 				</div>
